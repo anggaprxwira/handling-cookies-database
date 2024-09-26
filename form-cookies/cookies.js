@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             headers: {
                                 'Content-Type': 'application/x-www-form-urlencoded'
                             },
-                            body: `username=${username}&passowrd${password}&discord_id${discord_id}&price${price}`
+                            body: `username=${username}&passowrd=${password}&discord_id=${discord_id}&price=${price}`
                         })
                             .then(response => response.text())
                             .then(data => {
