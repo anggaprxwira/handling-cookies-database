@@ -1,0 +1,26 @@
+.tengah {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -200px;
+    left: 50%;
+    top: 40%;
+    width: 400px;
+    height: 220px;
+}
+
+h3 {
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: black;
+}
+
+tr {
+    font-family: monospace;
+    color: rgb(240, 26, 240);
+    font-weight: bold;
+}
+
+.tr-price {
+    color: black;
+    font-weight: lighter;
+}
