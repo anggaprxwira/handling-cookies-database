@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const cookieValue = JSON.stringify(formData);
         document.cookie = `discordFormData=${cookieValue}; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/`;
 
-        setTimeout(() => {
+        setInterval(() => {
             fetch('koneksi.php')
                 .then(response => response.text())
                 .then(data => {
